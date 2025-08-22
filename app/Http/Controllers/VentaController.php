@@ -9,4 +9,8 @@ class VentaController extends Controller
     public function index(){
         return view('venta.index');
     }
+
+    Public function create(){
+        return view('venta.create');
+    }
 }

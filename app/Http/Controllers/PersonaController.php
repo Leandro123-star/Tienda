@@ -9,4 +9,8 @@ class PersonaController extends Controller
     public function index(){
         return view('persona.index');
     }
+
+    Public function create(){
+        return view('persona.create');
+    }
 }

@@ -9,4 +9,8 @@ class ProductoController extends Controller
     public function index(){
         return view('producto.index');
     }
+
+    public function create(){
+        return view('producto.create');
+    }
 }
