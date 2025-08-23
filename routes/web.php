@@ -6,11 +6,11 @@ use App\Http\Controllers\VentaController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('registrarse');
+    return view('vista');
 });
 
 Route::get('/panel', function () {
-    return view('vista');
+    return view('registrarse');
 });
 
 Route::get('/persona', [PersonaController::class, 'index'])->name('persona.index');

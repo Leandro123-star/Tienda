@@ -107,11 +107,11 @@
         <!-- Main Content -->
         <div class="bg-white rounded-xl shadow-sm overflow-hidden mb-8">
             <!-- Card Header with Button -->
-            <div class="px-6 py-4 border-b border-gray-200 flex flex-col sm:flex-row justify-between items-center">
+            <div class="px-6 py-4 border-b border-gray-200 flex flex-col sm:flex-row justify-between items-center ">
                 <h2 class="text-xl font-semibold text-gray-700 mb-4 sm:mb-0">Historial de Ventas</h2>
-                <button id="btnAgregar" class="btn-primary bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 px-5 rounded-lg flex items-center">
+                <a href="{{route('venta.create')}}" class="bg-blue-700 text-white font-semibold px-4 py-2">
                     <i class="fas fa-plus-circle mr-2"></i> Nueva Venta
-                </button>
+                </a>
             </div>
 
             <!-- Sales Table -->
